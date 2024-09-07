@@ -41,7 +41,7 @@ const Navbar = () => {
           <h1 className='text-2xl text-gray-500 font-medium'>Gmail</h1>
         </div>
       </div>
-      <div className='md:block hidden w-[50%] mr-60'>
+      <div className='md:block w-[50%] mr-60'>
         <div className='flex items-center bg-[#EAF1FB] px-2 py-3  rounded-full'>
           <IoIosSearch size="24px" className='text-gray-700' />
           <input
@@ -53,7 +53,7 @@ const Navbar = () => {
           />
         </div>
       </div>
-      <div className='md:block hidden'>
+      <div className='md:block'>
         <div className='flex items-center gap-2'>
           <div className='p-3 rounded-full hover:bg-gray-100 cursor-pointer'>
             <FaRegQuestionCircle size={"20px"} />
